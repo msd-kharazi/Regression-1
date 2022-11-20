@@ -1,0 +1,17 @@
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\bin\Debug\net6.0-windows\Regression.1.WinForms.exe
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\bin\Debug\net6.0-windows\Regression.1.WinForms.deps.json
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\bin\Debug\net6.0-windows\Regression.1.WinForms.runtimeconfig.json
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\bin\Debug\net6.0-windows\Regression.1.WinForms.dll
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\bin\Debug\net6.0-windows\Regression.1.WinForms.pdb
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.csproj.AssemblyReference.cache
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression._1.WinForms.frmMain.resources
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.csproj.GenerateResource.cache
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.AssemblyInfoInputs.cache
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.AssemblyInfo.cs
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.dll
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\refint\Regression.1.WinForms.dll
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.pdb
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\Regression.1.WinForms.genruntimeconfig.cache
+C:\Users\m.kharazi\source\repos\Regression-1\Regression.1.WinForms\Regression.1.WinForms\obj\Debug\net6.0-windows\ref\Regression.1.WinForms.dll
