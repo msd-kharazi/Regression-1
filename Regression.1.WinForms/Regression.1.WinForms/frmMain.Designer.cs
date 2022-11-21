@@ -36,11 +36,7 @@
             this.dgInputData = new System.Windows.Forms.DataGridView();
             this.clX = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xlY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtY = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.lblX = new System.Windows.Forms.Label();
             this.lblY = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -63,7 +59,7 @@
             // 
             // txtX
             // 
-            this.txtX.Location = new System.Drawing.Point(35, 190);
+            this.txtX.Location = new System.Drawing.Point(297, 34);
             this.txtX.Name = "txtX";
             this.txtX.Size = new System.Drawing.Size(100, 23);
             this.txtX.TabIndex = 1;
@@ -109,52 +105,17 @@
             this.xlY.Name = "xlY";
             this.xlY.ReadOnly = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(650, 224);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(645, 158);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 15);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "First fill in some data";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(645, 126);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 15);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "First fill in some data";
-            // 
             // txtY
             // 
-            this.txtY.Location = new System.Drawing.Point(164, 190);
+            this.txtY.Location = new System.Drawing.Point(426, 34);
             this.txtY.Name = "txtY";
             this.txtY.Size = new System.Drawing.Size(100, 23);
             this.txtY.TabIndex = 6;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(645, 192);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 7;
-            // 
             // lblX
             // 
             this.lblX.AutoSize = true;
-            this.lblX.Location = new System.Drawing.Point(12, 193);
+            this.lblX.Location = new System.Drawing.Point(274, 37);
             this.lblX.Name = "lblX";
             this.lblX.Size = new System.Drawing.Size(17, 15);
             this.lblX.TabIndex = 8;
@@ -163,7 +124,7 @@
             // lblY
             // 
             this.lblY.AutoSize = true;
-            this.lblY.Location = new System.Drawing.Point(141, 193);
+            this.lblY.Location = new System.Drawing.Point(403, 37);
             this.lblY.Name = "lblY";
             this.lblY.Size = new System.Drawing.Size(17, 15);
             this.lblY.TabIndex = 9;
@@ -171,7 +132,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 219);
+            this.btnAdd.Location = new System.Drawing.Point(274, 63);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 10;
@@ -181,7 +142,7 @@
             // 
             // btnClearAll
             // 
-            this.btnClearAll.Location = new System.Drawing.Point(93, 219);
+            this.btnClearAll.Location = new System.Drawing.Point(274, 92);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(75, 23);
             this.btnClearAll.TabIndex = 11;
@@ -191,9 +152,10 @@
             // 
             // btnLinear
             // 
-            this.btnLinear.Location = new System.Drawing.Point(12, 305);
+            this.btnLinear.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLinear.Location = new System.Drawing.Point(12, 202);
             this.btnLinear.Name = "btnLinear";
-            this.btnLinear.Size = new System.Drawing.Size(75, 23);
+            this.btnLinear.Size = new System.Drawing.Size(141, 43);
             this.btnLinear.TabIndex = 12;
             this.btnLinear.Text = "Linear";
             this.btnLinear.UseVisualStyleBackColor = true;
@@ -201,18 +163,21 @@
             // 
             // btnExponential
             // 
-            this.btnExponential.Location = new System.Drawing.Point(218, 305);
+            this.btnExponential.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExponential.Location = new System.Drawing.Point(1020, 202);
             this.btnExponential.Name = "btnExponential";
-            this.btnExponential.Size = new System.Drawing.Size(93, 23);
+            this.btnExponential.Size = new System.Drawing.Size(159, 43);
             this.btnExponential.TabIndex = 13;
             this.btnExponential.Text = "Exponential";
             this.btnExponential.UseVisualStyleBackColor = true;
+            this.btnExponential.Click += new System.EventHandler(this.btnExponential_Click);
             // 
             // btnPower
             // 
-            this.btnPower.Location = new System.Drawing.Point(137, 305);
+            this.btnPower.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPower.Location = new System.Drawing.Point(516, 202);
             this.btnPower.Name = "btnPower";
-            this.btnPower.Size = new System.Drawing.Size(75, 23);
+            this.btnPower.Size = new System.Drawing.Size(141, 43);
             this.btnPower.TabIndex = 14;
             this.btnPower.Text = "Power";
             this.btnPower.UseVisualStyleBackColor = true;
@@ -220,9 +185,10 @@
             // 
             // rtResult
             // 
-            this.rtResult.Location = new System.Drawing.Point(12, 334);
+            this.rtResult.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rtResult.Location = new System.Drawing.Point(12, 251);
             this.rtResult.Name = "rtResult";
-            this.rtResult.Size = new System.Drawing.Size(820, 275);
+            this.rtResult.Size = new System.Drawing.Size(1168, 537);
             this.rtResult.TabIndex = 15;
             this.rtResult.Text = "";
             // 
@@ -230,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 800);
+            this.ClientSize = new System.Drawing.Size(1192, 800);
             this.Controls.Add(this.rtResult);
             this.Controls.Add(this.btnPower);
             this.Controls.Add(this.btnExponential);
@@ -239,11 +205,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblY);
             this.Controls.Add(this.lblX);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txtY);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dgInputData);
             this.Controls.Add(this.txtX);
             this.Controls.Add(this.lblGuide);
@@ -261,11 +223,7 @@
         private Label lblGuide;
         private TextBox txtX;
         private DataGridView dgInputData;
-        private Button button1;
-        private Label label1;
-        private Label label2;
         private TextBox txtY;
-        private TextBox textBox3;
         private Label lblX;
         private Label lblY;
         private Button btnAdd;
